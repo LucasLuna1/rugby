@@ -9,12 +9,12 @@
     "client": "cd client && npm start",
     "build": "cd client && npm ci --silent && npm run build",
     "install-client": "cd client && npm install",
-    "postinstall": "cd client && npm ci"
+    "postinstall": "cd client && npm ci",
+    "vercel-build": "cd client && npm ci --silent && npm run build"
   },
   "dependencies": {
     "express": "^4.18.2",
-    "cors": "^2.8.5",
-    "fs": "^0.0.1-security"
+    "cors": "^2.8.5"
   },
   "devDependencies": {
     "nodemon": "^3.0.1"
